@@ -1,7 +1,7 @@
 """Test the functions in src.pfmp_richelbilderbeek.medium_questions."""
 import unittest
 
-from pfmp_richelbilderbeek.testing_questions import (
+from pftesting_richelbilderbeek.testing_questions import (
     is_prime,
 )
 

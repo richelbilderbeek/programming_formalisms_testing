@@ -1,7 +1,7 @@
 """Tests all function in src.pfmp_richelbilderbeek.easy_questions."""
 import unittest
 
-from pfmp_richelbilderbeek.tdd_questions import (
+from pftesting_richelbilderbeek.tdd_questions import (
     is_zero,
 )
 

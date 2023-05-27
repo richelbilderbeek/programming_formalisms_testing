@@ -4,7 +4,7 @@ Medium-sized project uses in the UPPMAX Programming Formalisms course.
 """
 import cProfile
 
-from pfmp_richelbilderbeek.testing_solutions import (
+from pftesting_richelbilderbeek.testing_solutions import (
     get_datas,
     get_sorting_functions,
     get_speed_measurements,

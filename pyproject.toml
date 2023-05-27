@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pfmp_richelbilderbeek"
+name = "pftesting_richelbilderbeek"
 version = "0.0.1"
 authors = [
   { name="Richèl Bilderbeek", email="richel@richelbilderbeek.nl" },
@@ -18,8 +18,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/richelbilderbeek/programming_formalisms_medium_project"
-"Bug Tracker" = "https://github.com/richelbilderbeek/programming_formalisms_medium_project/issues"
+"Homepage" = "https://github.com/richelbilderbeek/programming_formalisms_testing"
+"Bug Tracker" = "https://github.com/richelbilderbeek/programming_formalisms_testing/issues"
 
 [tool.ruff]
     select = ["ALL"]

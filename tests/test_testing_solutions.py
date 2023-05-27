@@ -2,7 +2,7 @@
 import unittest
 from random import seed
 
-from pfmp_richelbilderbeek.testing_solutions import (
+from pftesting_richelbilderbeek.testing_solutions import (
     flip_coin,
     get_digits,
     roll_dice,
