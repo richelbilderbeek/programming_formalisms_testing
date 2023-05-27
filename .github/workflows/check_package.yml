@@ -1,0 +1,17 @@
+# Build and inspect the Python package
+name: Check package
+
+on:
+  push:
+  pull_request:
+  schedule:
+  - cron: "0 0 3 * *"
+
+jobs:
+  check-package:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: hynek/build-and-inspect-python-package@v1

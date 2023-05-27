@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pfmp_richelbilderbeek"
+version = "0.0.1"
+authors = [
+  { name="Richèl Bilderbeek", email="richel@richelbilderbeek.nl" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/richelbilderbeek/programming_formalisms_medium_project"
+"Bug Tracker" = "https://github.com/richelbilderbeek/programming_formalisms_medium_project/issues"
+
+[tool.ruff]
+    select = ["ALL"]
+    ignore = ["ANN", "PT", "PTH", "D211", "D213", "S101", "B006"]
+

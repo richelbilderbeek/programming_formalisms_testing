@@ -1,0 +1,23 @@
+# Check if any links are broken
+name: Check links
+
+on:
+  push:
+  pull_request:
+  schedule:
+  - cron: "0 0 1 * *"
+
+
+jobs:
+  check_links:
+
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: lycheeverse/lychee-action@v1.2.0
+        with:
+          fail: true
