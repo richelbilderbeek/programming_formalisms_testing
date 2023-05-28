@@ -8,7 +8,7 @@ from pftesting_richelbilderbeek.testing_questions import (
 
 class TestTestingQuestions(unittest.TestCase):
 
-    """Class to test the functions in src.pftesting_richelbilderbeek.medium_questions."""
+    """Class to test all functions."""
 
     def test_is_prime(self):
         """Test 'is_prime'."""

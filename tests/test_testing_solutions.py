@@ -11,7 +11,7 @@ from pftesting_richelbilderbeek.testing_solutions import (
 
 class TestTestingSolutions(unittest.TestCase):
 
-    """Class to test the functions in src.pftesting_richelbilderbeek.testing_solutions."""
+    """Class to test all function."""
 
     def test_flip_coin(self):
         """Test 'flip_coin'."""
