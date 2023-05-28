@@ -2,12 +2,11 @@
 import unittest
 from random import seed
 
-from pftesting_richelbilderbeek.testing_solutions import (
+from src.pftesting_richelbilderbeek.testing_solutions import (
     flip_coin,
     get_digits,
     roll_dice,
 )
-
 
 class TestTestingSolutions(unittest.TestCase):
 
