@@ -8,6 +8,7 @@ from src.pftesting_richelbilderbeek.testing_solutions import (
     roll_dice,
 )
 
+
 class TestTestingSolutions(unittest.TestCase):
 
     """Class to test all function."""
