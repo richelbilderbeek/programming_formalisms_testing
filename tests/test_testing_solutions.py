@@ -1,4 +1,4 @@
-"""Test the functions in src.pfmp_richelbilderbeek.medium_solutions."""
+"""Test the functions in src.pftesting_richelbilderbeek.testing_solutions."""
 import unittest
 from random import seed
 
@@ -9,9 +9,9 @@ from pftesting_richelbilderbeek.testing_solutions import (
 )
 
 
-class TestMediumSolutions(unittest.TestCase):
+class TestTestingSolutions(unittest.TestCase):
 
-    """Class to test the functions in src.pfmp_richelbilderbeek.medium_solutions."""
+    """Class to test the functions in src.pftesting_richelbilderbeek.testing_solutions."""
 
     def test_flip_coin(self):
         """Test 'flip_coin'."""

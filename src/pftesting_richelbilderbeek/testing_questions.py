@@ -39,7 +39,7 @@ for example '12' becomes '[1, 2]'.
 -   Switch roles every 3 minutes
 -   Discuss how to keep the time first
 -   Person with GitHub username first in alphabet starts
--   Create a Fork of <https://github.com/richelbilderbeek/programming_formalisms_medium_project>
+-   Create a Fork of <https://github.com/richelbilderbeek/programming_formalisms_testing>
 -   Develop a function called `get_digits`
 -   Try to be **exemplary**
 
@@ -55,7 +55,7 @@ This function returns either True of False, as if determined by the flip of a co
 -   Switch roles every 3 minutes
 -   Discuss how to keep the time first
 -   Person with GitHub username first in alphabet starts
--   Create a Fork of <https://github.com/richelbilderbeek/programming_formalisms_medium_project>
+-   Create a Fork of <https://github.com/richelbilderbeek/programming_formalisms_testing>
 -   Develop a function called `get_digits`
 -   Try to be **exemplary**
 
@@ -72,7 +72,7 @@ as if determined by the roll of a dice [*].
 -   Switch roles every 3 minutes
 -   Discuss how to keep the time first
 -   Person with GitHub username first in alphabet starts
--   Create a Fork of <https://github.com/richelbilderbeek/programming_formalisms_medium_project>
+-   Create a Fork of <https://github.com/richelbilderbeek/programming_formalisms_testing>
 -   Develop a function called `get_digits`
 -   Try to be **exemplary**
 

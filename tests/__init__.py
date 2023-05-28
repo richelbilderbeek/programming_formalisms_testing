@@ -1,1 +1,1 @@
-"""Initialisation of the test the functions in src.pfmp_richelbilderbeek.medium."""
+"""Initialisation of the test the functions in src.pftesting_richelbilderbeek."""
