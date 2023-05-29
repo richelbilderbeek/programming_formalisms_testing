@@ -1,36 +1,48 @@
-"""General-purpose functions of moderate complexity.
+"""Functions for the 'Testing' lesson.
 
-Moderate complexity' means:
- * a cyclomatic complexity of 1 to 8
- * may have for-loops
- * maximally two variables modified
- * indeterministic
-
-0: `is_prime(x)`
-1: `get_digits(x)`
-2a: `flip_coin(x)`
-2b: `roll_dice(x)`
+0: `is_zero(x)` (example function)
+1: `is_prime(x)`
+2: `get_digits(x)`
+3: `flip_coin(x)`
+4: `roll_dice(x)`
 """
 
 
 """This is an example function"""
 
-def is_prime(x):
-    """Determine if `x` is prime.
+def is_zero(x):
+    """Determine if `x` is zero.
 
-    Returns True if `x` is an integer that is prime.
-    Returns False if `x` is an integer that is not prime.
-    Raises a TypeError if `x` is not an integer
+    If `x` is not a number, a `TypeError` is raised.
+
+    Returns `True` if `x` is zero
     """
-    if not isinstance(x, int):
-        message = "'x' must be an integer"
-        raise TypeError(message)
-    first_prime = 2
-    if x < first_prime:
-        return False
-    return all(x % i != 0 for i in range(first_prime, x))
+    if not isinstance(x, (int, float)):
+        msg = "'number' must be a number. "
+        raise TypeError(
+            msg,
+            "Actual type of 'number': ", type(x),
+        )
+    return x == 0
 
-"""Exercise 1: develop the function 'get_digits'
+
+"""Exercise 1: develop the function 'is_prime'
+
+This function determines if a number is prime.
+
+-   Pair up
+-   Switch roles every 3 minutes
+-   Discuss how to keep the time first
+-   Person with GitHub username first in alphabet starts
+-   Create a Fork of <https://github.com/richelbilderbeek/programming_formalisms_testing>
+-   Develop a function called `is_prime`
+-   Try to be **exemplary**
+
+[*] vague on purpose
+"""
+
+
+"""Exercise 2: develop the function 'get_digits'
 
 This function splits up a number in its digits [*],
 for example '12' becomes '[1, 2]'.
@@ -47,7 +59,7 @@ for example '12' becomes '[1, 2]'.
 """
 
 
-"""Exercise 2a: develop the function 'flip_coin'
+"""Exercise 3: develop the function 'flip_coin'
 
 This function returns either True of False, as if determined by the flip of a coin [*].
 
@@ -63,7 +75,7 @@ This function returns either True of False, as if determined by the flip of a co
 
 """
 
-"""Exercise 2b: develop the function 'roll_dice'
+"""Exercise 4: develop the function 'roll_dice'
 
 This function returns a number between 1 and 6,
 as if determined by the roll of a dice [*].
