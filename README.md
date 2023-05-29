@@ -18,3 +18,4 @@ Filename                           |Descriptions
 [.wordlist.txt](.wordlist.txt)     |Whitelisted wordss for the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
 [.pylintrc](.pylintrc)             |Configuration file for pylint
 [pyproject.toml](pyproject.toml)   |Configuration file of this package
+
