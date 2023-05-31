@@ -2,7 +2,7 @@
 import unittest
 
 from src.pftesting_richelbilderbeek.testing_questions import (
-    is_zero,
+    is_zero, is_prime
 )
 
 
